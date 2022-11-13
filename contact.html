@@ -18,13 +18,81 @@
             </ul>
         </nav>
     </header> 
+<form>
+ <div class="form-global">
+    <div class="form-group">
+<!--Nombre-->
+<div class="row">
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Nombre" required>
+    </div>
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Apellidos" required>
+    </div>
+  </div>
+    </div>
+   
+
+    </div>
+    <div class="form-group">
+        <!--Telefono-->
+        <label for="telefono">Número de telefono </label>
+        <input type="tel" name="telefono" pattern="[0-9]{9}" placeholder="Solo números">
+
+    </div>
+    <div class="form-group">
+        <!--Radio Button-->
+        <fieldset>
+            <legend>¿Cómo me conociste:</legend>
+        
+            <div>
+              <input type="radio" id="universidad" name="drone" value="universidad"
+                     checked>
+              <label for="universidad">Universidad</label>
+            </div>
+        
+            <div>
+              <input type="radio" id="KeepCoding" name="drone" value="KeepCoding">
+              <label for="KeepCoding">Keepcoding kick-off</label>
+            </div>
+        
+            <div>
+              <input type="radio" id="colegio" name="drone" value="colegio">
+              <label for="colegio">Colegio</label>
+            </div>
+            <div>
+                <input type="radio" id="github" name="drone" value="github">
+                <label for="github">En Github</label>
+              </div>
+        </fieldset>
+        
+
+    </div>
+    <div class="form-group">
+
+        <label for="description">Descripción:</label>
+        <textarea class="description" id="description" rows="10" cols="40"maxlength="180" placeholder= "La descripción debe tener un máximo de 180 cáracteres."" required></textarea>
+        
+    </div>
+
+    <div class="form-group">
+        <input type="checkbox" class="checkbox_input" required>
+        <label class="form-check-label" for ="checkbox_input"> Acepto politica de privacidad</label>
+      
+    </div>
+    <div></div>
+    <button type="submit" class="button_submit">Enviar</button>
+
+ </div>
+
+</form>
 
     <footer>
         <div class="RedesSociales">
             <a href="https://www.linkedin.com" target="_blank"><img src="img/icono_linkein.png" alt="Icono LinkedIn"></a>
             <a href="https://www.behance.net/" target="_blank"><img src="img/icono_behance.png" alt="Icono Behance"></a>
             <a href="https://www.instagram.com/" target="_blank"><img src="img/icono_instagram.png" alt="Icono Instagram"></a>
-
+            <a href="mailto:claudialeria8@gmail.com" target="_blank"><img src="img/icono_email.png" alt="Icono Email"></a>
         </div>
   
     </footer>
